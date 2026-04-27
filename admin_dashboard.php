@@ -453,7 +453,12 @@ foreach ($employees as $emp) {
             </div>
             
             <div class="card">
-                <h3>📈 Horas por Proyecto</h3>
+                <h3>
+                    📈 Horas por Proyecto
+                    <a href="reports.php" style="float: right; font-size: 14px; color: #007bff; text-decoration: none; font-weight: normal;">
+                        Ver Informes →
+                    </a>
+                </h3>
                 
                 <?php if (empty($chart_data)): ?>
                     <div class="no-data">No hay datos de proyectos.</div>
