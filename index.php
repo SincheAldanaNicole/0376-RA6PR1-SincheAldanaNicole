@@ -17,6 +17,16 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
+// Redirect based on role
+$user_role = $_SESSION['user_role'] ?? '';
+if ($user_role === 'admin') {
+    header('Location: admin_dashboard.php');
+    exit;
+} else {
+    header('Location: employee_dashboard.php');
+    exit;
+}
+
 // Include database connection
 require_once 'db.php';
 
