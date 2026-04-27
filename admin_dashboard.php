@@ -415,7 +415,12 @@ foreach ($employees as $emp) {
         
         <div class="grid-2">
             <div class="card">
-                <h3>📊 Empleados - Horas de Hoy</h3>
+                <h3>
+                    📊 Empleados - Horas de Hoy
+                    <a href="manage_employees.php" style="float: right; font-size: 14px; color: #007bff; text-decoration: none; font-weight: normal;">
+                        Gestionar Empleados →
+                    </a>
+                </h3>
                 
                 <?php if (empty($employees)): ?>
                     <div class="no-data">No hay empleados registrados.</div>
