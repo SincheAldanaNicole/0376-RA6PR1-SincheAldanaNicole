@@ -461,7 +461,12 @@ foreach ($employees as $emp) {
         </div>
         
         <div class="card">
-            <h3>📋 Proyectos - Horas Registradas vs Presupuesto</h3>
+            <h3>
+                📋 Proyectos - Horas Registradas vs Presupuesto
+                <a href="manage_projects.php" style="float: right; font-size: 14px; color: #007bff; text-decoration: none; font-weight: normal;">
+                    Gestionar Proyectos →
+                </a>
+            </h3>
             
             <?php if (empty($projects_summary)): ?>
                 <div class="no-data">No hay proyectos registrados.</div>

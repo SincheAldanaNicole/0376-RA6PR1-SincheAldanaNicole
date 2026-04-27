@@ -3,6 +3,7 @@
  * User Logout Handler
  * 
  * Destroys the user session and removes authentication cookies.
+ * 
  */
 
 // Start the session to access session data

@@ -22,7 +22,7 @@ $options = [
 
 /**
  * Get PDO database connection
- * 
+ *  
  * @return PDO Database connection instance
  * @throws PDOException If connection fails
  */

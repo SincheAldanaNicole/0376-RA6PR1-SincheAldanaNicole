@@ -1,5 +1,6 @@
 <?php
 /**
+ * 
  * Employee Dashboard
  * 
  * Allows employees to clock in/out, select projects, and view their time entries.
