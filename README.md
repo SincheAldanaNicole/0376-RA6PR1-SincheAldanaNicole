@@ -171,6 +171,10 @@ Aplicación web para el control y seguimiento del tiempo de trabajo de empleados
 
 **Nicole Sinche Aldana**
 
+## IA
+
+**Claude y Cline**
+
 ## Curso
 
 **0376 Implantació d'aplicacions Web - Curs 2025/2026**
